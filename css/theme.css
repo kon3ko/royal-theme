@@ -7,13 +7,13 @@
     --success: #21b978;
     --warning: #ffeb3b;
     --info: #03a9f4;
-    --primary: #000BA0;
+    --primary: #3b294c;
     --primary-dark: #000428;
     --primary-70: rgba(0, 11, 160, 0.7);
     --primary-50: rgba(0, 11, 160, 0.5);
     --primary-30: rgba(0, 11, 160, 0.3);
     --primary-10: rgba(0, 11, 160, 0.1);
-    --logo: ;
+    --logo: none;
     --sidebar-icon: #FFFFFF;
     --20: rgb(255, 255, 255);
     --30: rgb(255, 255, 255);
@@ -27,5 +27,22 @@
 }
 
 .bg-grad-sidebar {
-  background-image: linear-gradient(0deg, #734b6d 0%, #000428 100%);
+    background-image: linear-gradient(0deg, #734b6d 0%, #000428 100%);
+}
+
+.btn-default,
+.form-global-search,
+.form-search,
+.card,
+.checkbox,
+.form-input-bordered,
+.form-select,
+.rounded-lg{
+    border-radius: .1875rem;
+}
+
+.active\:shadow-outline:active,
+.focus\:shadow-outline:focus{
+    -webkit-box-shadow:none;
+    box-shadow:none;
 }
